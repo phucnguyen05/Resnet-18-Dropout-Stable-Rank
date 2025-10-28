@@ -6,7 +6,6 @@ Train ResNet-18 style model on CIFAR-100, apply dropout (pre-ReLU in each BasicB
 run multiple seeds and dropout rates, collect test accuracy and singular values of activation matrices,
 and save results to an Excel file.
 
-Note: This script does NOT run here — run locally / on GPU.
 """
 
 import argparse
